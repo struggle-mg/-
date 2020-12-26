@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>学生宿舍登记</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+</head>
+<body style="background-image: url('/static/img/3.jpg')">
+<div class="div1"><a href="/ar_users">退出登入</a></div>
+<div class="div2">
+    <h1>欢迎登入学生宿舍管理系统</h1>
+</div>
+<section>
+    <table border="1" width=90% align="center">
+        <th colspan="10">学生宿舍安排登记表</th>
+        <tr>
+            <td class="t3">姓名</td>
+            <td class="t3">学号</td>
+            <td class="t3">性别</td>
+            <td class="t3">年龄</td>
+            <td class="t3">专业</td>
+            <td class="t3">楼栋</td>
+            <td class="t3">房间</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <form method="post" action="/stu_users">
+            <tr>
+                <td><input name="sname" value="" placeholder="请输入姓名" required></td>
+                <td><input name="id" value="" placeholder="请输入学号" required></td>
+                <td><input name="sex" value="" placeholder="请输入性别"></td>
+                <td><input name="age" value="" placeholder="请输入年龄"></td>
+                <td><input name="zhuanye" value="" placeholder="请输入专业"></td>
+                <td><input name="loudong" value="" placeholder="请输入楼栋"></td>
+                <td><input name="fangjian" value="" placeholder="请输入房间"></td>
+                <td><input type="submit" value="添加" class="input0"></td>
+                <td><a href="/select"><button type="button" class="input1">查询</button></a></td>
+            </tr>
+
+        </form>
+        {{articles}}
+    </table>
+</section>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body{
+    background-size: cover;
+}
+/*管理员登入界面*/
+#table{
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    margin-left: 620px;
+    margin-right: 500px;
+    margin-top: 100px;
+    border: 1px solid rgb(211, 149, 79);
+}
+.t1{
+    background-color: aliceblue;
+    color: indigo;
+    height: 30px;
+    border-bottom: 20px solid rgba(0,0,0,0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.t2{
+    background-color: aquamarine;
+    color: blue;
+    height: 200px;
+}
+#input1{
+    height: 40px;
+    width: 70px;
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*学生宿舍登记页面*/
+.div1{
+    background-color: rgba(0,0,0,0.3);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+
+.div1 a{
+    color: white;
+}
+.div2{
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+table{
+    text-align: center;
+}
+
+th{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+
+td{
+    text-align: center;
+    color: white;
+}
+
+.t3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.input0{
+    background-color: saddlebrown;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input1{
+    background-color: darkorange;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.input2{
+    background-color: grey;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    font-weight:bold;
+}
+.input3{
+    background-color: indigo;
+    color: white;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    font-weight:bold;
+}
+
+/*管理员注册页面*/
+.section1{
+
+    font-size:18px ;
+    font-weight: bold;
+}
+.div3{
+    margin-top:10px;
+    margin-left: 1000px;
+}
+.input4{
+    text-align: left;
+    height: 30px;
+    width: 400px;
+    font-size: 16px;
+}
+p{
+    color: red;
+}
+#a1{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 165px;
+}
